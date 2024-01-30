@@ -1,0 +1,18 @@
+{
+  "publicPath": "./",
+  "vite": true,
+  "plugins": [
+    [
+      "build-plugin-icestark",
+      {
+        "type": "child"
+      }
+    ],
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": ["zh-cn"]
+      }
+    ]
+  ]
+}

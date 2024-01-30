@@ -1,0 +1,15 @@
+.childRoot {
+  min-height: 94vh;
+}
+.siderDiv {
+  @media screen and (max-width: 720px) {
+    position: fixed;
+    z-index: 100;
+    height: 100%;
+    top: 64px;
+    :global(.ant-layout-sider-children) {
+      overflow-x: auto;
+      padding-bottom: 70px;
+    }
+  }
+}

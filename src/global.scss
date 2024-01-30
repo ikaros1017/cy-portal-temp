@@ -1,0 +1,14 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
+
+:where(.css-dev-only-do-not-override-1hnpuv1).ant-menu-dark, :where(.css-dev-only-do-not-override-1hnpuv1).ant-menu-dark>.ant-menu{
+  background: rgb(24,24,25);
+}
+:where(.css-dev-only-do-not-override-1hnpuv1).ant-layout .ant-layout-sider{
+  background: rgb(24,24,25);
+}
+:where(.css-dev-only-do-not-override-1hnpuv1).ant-layout .ant-layout-sider-zero-width-trigger{
+  background: rgb(24,24,25);
+}
